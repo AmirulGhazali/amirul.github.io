@@ -20,6 +20,41 @@ header{
     padding-right: 12px;
 }
 
+.api{
+    font-family: lucida console, monospace;
+    text-align: center; 
+    font-size: 0.5cm;
+    background-color: #006e6e;
+    color: black;
+    
+}
+
+.mytime{
+    color: black;
+}
+
+.mysecondtime{
+    color: black;
+}
+
+.mydate{
+    color: black;
+}
+
+.mycountry{
+    color: black;
+}
+
+.mytemp{
+    color: black;
+}
+
+.kepala{
+     font-family: lucida console, monospace;
+    text-align: center; 
+    font-size: 2cm;
+}
+
 .hed{
     font-family: lucida console, monospace;
     font-size: 3cm;

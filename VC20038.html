@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    
     <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large w3-text-black"
         onclick="w3_close()">Close &times;</button>
@@ -25,6 +26,21 @@
 
       <div id="main">
         <button id="openNav" class="w3-button w3-xlarge" onclick="w3_open()">&#9776;</button>
+
+        <div class="api">
+            <img src="blue.jpg" style="width:100%">
+            <div class="w3-display-middle">
+                <h1 class="kepala">Real Time Clock</h1>
+                <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+                <p id="mytime" class="mytime">Time in Malaysia: ooo</p>
+                <p id="mysecondtime" class="mysecondtime">Time: ooo</p>
+                <p id="mydate" class="mydate">Date: ooo</p>
+                <p id="mycountry" class="mycountry">Clock: ooo</p>
+                <p id="mytemp" class="mytemp">Temperature: ooo</p>
+            </div>
+            
+        </div>
+       
         <header class="w3-padding-32" id="home">
             <h1 class="hed">I'm Amirul.</h1>
             <p>Programmer and T-Shirt Designer</p>
@@ -164,5 +180,6 @@
         document.getElementById("openNav").style.display = "inline-block";
         }
     </script>
+    <script src="inner.js"></script>
 </body>
 </html>
